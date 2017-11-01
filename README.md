@@ -10,6 +10,8 @@
 
 `node server.js`
 
+`or npm start`
+
 `localhost:8081`
 
 ### Test
@@ -18,3 +20,4 @@
 
 `karma start`
 
+`or npm test`

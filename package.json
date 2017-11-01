@@ -2,6 +2,10 @@
   "name": "ng-pipeline",
   "version": "1.0.0",
   "description": "Test Angular code with Jasmine and Karma",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rvan1/ng-pipeline.git"
+  },
   "main": "server.js",
   "scripts": {
     "test": "karma start",
