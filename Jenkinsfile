@@ -10,7 +10,8 @@ pipeline {
         stage('Test'){
             steps {
                 echo 'test'
-                sh 'npm install -g karma-cli && karma start'
+                sh 'npm install -g karma-cli'
+                sh 'npm test'
             }
         }
         stage('Deploy') {
